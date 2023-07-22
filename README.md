@@ -52,14 +52,6 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [🔗 Live Demo Link]()
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -77,7 +69,7 @@ To run this project, you need the following:
 Clone this repository to your desired folder:
 
 ```bash
-git clone https://github.com/mahdinoori2000/Math-Magicians.git
+git clone git@github.com:DevaWinner/book-store.git
 ```
 
 ### Install
