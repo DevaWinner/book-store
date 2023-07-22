@@ -1,13 +1,24 @@
-const books = [
-  {
-    id: 1, title: 'Book-1', author: 'Author-1', category: 'Category-1',
-  },
-  {
-    id: 2, title: 'Book-2', author: 'Author-2', category: 'Category-2',
-  },
-  {
-    id: 3, title: 'Book-3', author: 'Author-3', category: 'Category-3',
-  },
-];
+import React from 'react';
+import PropTypes from 'prop-types';
 
-export default books;
+const Book = ({
+  id, title, author, category,
+}) => (
+  <li>
+    <div>
+      <h3>{title}</h3>
+      <p>{author}</p>
+      <p>{category}</p>
+      <button type="button" id={id}>delete</button>
+    </div>
+  </li>
+);
+
+export default Book;
+
+Book.propTypes = {
+  id: PropTypes.number.isRequired,
+  title: PropTypes.string.isRequired,
+  author: PropTypes.string.isRequired,
+  category: PropTypes.string.isRequired,
+};
