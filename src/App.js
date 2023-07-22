@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
-import Booklist from './components/booklist';
-import Categories from './components/categories';
-import Navbar from './components/navbar';
+import Booklist from './components/BookList';
+import Categories from './components/Categories';
+import Navbar from './components/Navigation';
 
 function App() {
   return (
