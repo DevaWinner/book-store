@@ -21,13 +21,17 @@ const BookList = () => {
   ];
 
   return (
-    <main>
-      <div>
-        {books.map(({ id, title, author }) => (
-          <Book key={id} title={title} author={author} />
-        ))}
-      </div>
-    </main>
+    <div>
+      {books.map((book) => (
+        <Book
+          key={book.id}
+          id={book.id}
+          title={book.title}
+          author={book.author}
+          category={book.category}
+        />
+      ))}
+    </div>
   );
 };
 
