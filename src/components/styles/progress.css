@@ -13,8 +13,8 @@
   border-width: 5px;
   border-radius: 50%;
   border-top-color: var(--blue-primary);
-  border-right-color: var(--blue-primary);;
-  border-bottom-color: var(--blue-primary);;
+  border-right-color: var(--blue-primary);
+  border-bottom-color: var(--blue-primary);
   border-left-color: var(--gray-two);
 }
 

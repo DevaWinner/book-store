@@ -9,7 +9,7 @@
   --background: #f5f6fa;
   --blue-primary: #0290ff;
   --white-three: #e8e8e8;
-  --gray-one:   #6b6868;
+  --gray-one: #6b6868;
   --gray-two: #a8a8a8;
   --gray-three: #e8e8e8;
   --text-blue: #4386bf;
@@ -19,7 +19,7 @@
 body {
   background-color: var(--background);
   padding: 9.313rem 6.25rem;
-  font-family: 'Montserrat', sans-serif;;
+  font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

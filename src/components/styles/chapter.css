@@ -1,13 +1,13 @@
 .chapter {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    gap: 0.5rem;
-    margin-left: 3rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 0.5rem;
+  margin-left: 3rem;
 }
 
 .chapter p {
-  font-family: RobotoSlab;
+  font-family: 'Roboto Slab', serif;
   font-weight: 300;
 }
 
@@ -20,7 +20,7 @@
   background-color: var(--blue-primary);
   color: white;
   font-size: 0.813rem;
-  font-weight:300;
+  font-weight: 300;
   font-family: 'Roboto Slab', serif;
   padding: 0.7rem 1.2rem;
   border-radius: 0.25rem;

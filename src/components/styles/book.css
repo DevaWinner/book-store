@@ -56,7 +56,7 @@
   cursor: pointer;
 }
 
-.book-buttons button:not(:first-child){
+.book-buttons button:not(:first-child) {
   margin-left: 2rem;
 }
 
@@ -64,4 +64,3 @@
   border-right: 1.5px solid var(--gray-two);
   padding-right: 1rem;
 }
-
