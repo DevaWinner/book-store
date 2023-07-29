@@ -4,7 +4,8 @@
     gap: 1.88rem;
     width: 100%;
     border-top: 1px solid var(--gray-three);
-    margin-top: 2.6rem;
+    margin-top: 3rem;
+    margin-bottom: 10em;
     padding: 2.6rem 0;
 }
 
@@ -18,8 +19,8 @@
 
 .input-form {
   display: flex;
-  gap: 1.88rem;
   width: 100%;
+  gap: 1.88rem;
   color: var(--gray-three);
 }
 
@@ -31,6 +32,7 @@
   font-size: 1rem;
   font-weight: normal;
   color: var(--gray-one);
+  flex: 1;
 }
 
 .author {
@@ -41,6 +43,7 @@
   font-size: 1rem;
   font-weight: normal;
   color: var(--gray-one);
+  flex: 1;
 }
 
 .category-input {
